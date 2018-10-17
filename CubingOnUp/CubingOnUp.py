@@ -53,7 +53,7 @@ def CubingOnUp():
     '''
     counter = 0
     #while( not cube_stack.validate_stack() and counter < 1000000 ):
-    while( counter < 1000000 ):
+    while( counter < 10000000 ):
         counter = counter + 1
         if counter % 100000 == 0:
             print(counter)
